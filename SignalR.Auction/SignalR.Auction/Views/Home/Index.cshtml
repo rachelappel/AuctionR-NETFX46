@@ -1,0 +1,32 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <h2 id ="itemName">Item for Auction</h2>
+        <div>
+            <img id="itemImage" width="250" />
+            <p id="itemDescription">Item Description</p>                    
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Make a bid</h2>
+        <p>
+            <table>
+                <tr><td>From </td><td><input type="text" id="fromBidderTextBox" /></td></tr>
+                <tr><td>Bid amount $</td><td><input type="text" id="bidAmountTextBox" /></td></tr>                
+                <tr><td>&nbsp;</td><td><button id="placeBidButton">Place Bid</button></td></tr>
+                <tr><td colspan="2"><span id="countdownBids"></span></td></tr>
+            </table>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Watch the Auction</h2>
+        <ul id="bidList"></ul>
+    </div>
+</div>
+@section scripts {
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.signalR-2.0.3.js"></script>
+<script src="~/signalr/hubs"></script>
+<script src="~/Scripts/data.js"></script>
+<script src="~/Scripts/auction.js"></script>
+<script src="~/Scripts/admin.js"></script>
+}
