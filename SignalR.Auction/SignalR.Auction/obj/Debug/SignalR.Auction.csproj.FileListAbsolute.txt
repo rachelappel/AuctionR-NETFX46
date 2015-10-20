@@ -1,0 +1,1 @@
+C:\Demos\AuctionR\SignalR.Auction\SignalR.Auction\obj\Debug\SignalR.Auction.csprojResolveAssemblyReference.cache
